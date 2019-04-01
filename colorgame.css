@@ -1,0 +1,84 @@
+body {
+    background: #232323;
+    margin: 0;
+    font-family: 'Bowlby One SC', cursive;
+}
+.square {
+    background: purple;
+    padding-top: 30%;
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 50%;
+    transition: background 0.6s;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+}
+#container {
+    margin: 20% auto;
+}
+@media (min-width: 1025px) {
+     #container {
+        max-width: 600px;
+        margin: 20px auto;
+     }   
+}
+h1 {
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    background-color: rgb(17, 63, 57);
+    text-transform: uppercase;
+    padding: 15% 0;
+    margin: 0;
+    line-height: 1.1;
+    font-size: 2.5em;
+}
+@media (min-width: 1025px) {
+    h1 {
+        padding: 20px 0;
+        font-size: 2em;
+    }
+}
+#stripe {
+    text-align: center;
+    height: 4em;
+    background: white;
+    color: black;
+    font-size: 2em;
+}
+@media (min-width: 1025px) {
+    #stripe {
+        height: 30px;
+        font-size: 20px
+    }
+}
+.selected {
+    background-color: rgb(17, 63, 57);
+    color: white;
+}
+#colorDisplay {
+    font-size: 200%;
+}
+button {
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: rgb(17, 63, 57);
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    outline: none;
+}
+button:hover {
+    color: white;
+    background: rgb(17, 63, 57);
+}
+#message {
+    display: inline-block;
+    width: 20%;
+}
